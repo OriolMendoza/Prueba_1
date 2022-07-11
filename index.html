@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Página de Soraka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstati;c.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital@0;1&family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+      <h1>Página de soraka</h1>
+    </div>
+    <main>
+      <!--A continuación el índice de imágenes a los splash art de Soraka-->
+      <br>
+      <div id="indice">
+        <p>1-<a href="#soraka-lol">Imágen del splash art de Soraka</a></p>
+        <p>2-<a href="#soraka-wr">Imágen del splash art de Soraka en Wild Rift</a></p>
+        <p>3-<a href="#soraka-listas">Listas de Soraka</a></p>
+        <p>4-<a href="#formulario-soraka">Formulario de Soraka</a></p>
+      </div>
+
+      <h2>Imágenes de soraka:</h2>
+      <!--A continuación un link hacia imágenes de soraka en Pinterest-->
+     
+      <div>
+        <p><a href="https://www.pinterest.com.mx/jesyfnaf/soraka-league-of-legends/" target="_blank" rel="noopener noreferrer">Click aquí para ver imágenes de soraka</a> (Pinterest)</p>
+
+        <p>Soraka, una nómada proveniente de las dimensiones celestiales más allá del monte Targon, dejó a un lado su inmortalidad para proteger a las razas mortale  s de sus propios instintos asesinos. Su cometido es difundir las virtudes de la compasión y la misericordia entre todos los seres con los que se cruza, e incluso sanar a aquellos que desean hacerle daño. Pese a los problemas que ha presenciado Soraka hasta la fecha, sigue creyendo firmemente que los pueblos de Runaterra no han alcanzado todo su potencial.</p>
+      </div>
+      
+      <h2 id="soraka-lol">1-Imágen del splash art de Soraka</h2>
+      
+      <a href="file:///C:/Users/Oriol/Proyectos%20programación/HTML/Proyecto%20Prueba%201/imagenes/Soraka_0.jpg" target="_blank"><img src="imagenes/Soraka_0.jpg" alt="Imágen del splash art de Soraka" class="splash-art""></a>
+
+      <!--<em> Se usa para resaltar un text en cursiva-->
+      <div>
+        <p>Soraka en el videojuego <a href="https://wildrift.leagueoflegends.com/es-es/" target="_blank" rel="noopener noreferrer"><em>League of Legends: Wild Rift</em></a> (el League of Legends de móvil) cuenta con un splash art diferente.</p>
+      </div>
+
+      <h2 id="soraka-wr">2-Imágen del splash art de Soraka en Wild Rift</h2>
+
+      <a href="file:///C:/Users/Oriol/Proyectos%20programaci%C3%B3n/HTML/Proyecto%20Prueba%201/imagenes/descarga.jfif" target="_blank"><img src="imagenes/descarga.jfif" alt="Imágen del splash art de Soraka en Wild Rift" class="splash-art"></a>
+
+      <hr style="height: 2px" color="black">
+
+      <h2 id="soraka-listas">3-Listas de soraka</h2>
+
+      <div>
+        <p>Skins de Soraka:</p>
+        <!--Comando para crear una lista NO ordenada (Con puntos) <ul> para una lista ordenada (Con números) <ol>-->
+        <ul>
+          <!--<strong> Se usa para resaltar el texto en negrita-->
+          <strong>
+          <li>Soraka Dríade</li><img src="imagenes/Soraka_Driade.jfif" class="splash-art">
+          <li>Soraka Divina</li><img src="imagenes/Soraka_divina.jpg" class="splash-art">
+          <li>Soraka Celestial</li><img src="Imagenes/soraka_celestial.jpg" class="splash-art">
+          <li>Soraka Segadora de almas</li><img src="imagenes/Soraka_segadora.jpg" class="splash-art">
+          <li>Soraka Orden del Platano</li><img src="Imagenes/Soraka_orden.jpg" class="splash-art">
+          <li>Programa Soraka</li><img src="Imagenes/Soraka_programa.jpg" class="splash-art">
+          </strong>
+        </ul>
+      </div>
+
+      <h2 id="formulario-soraka">4-Formulario de Soraka</h2>
+      <form action="/respuestas">
+        <!--Botones de radio (El atributo "checked" hace que la casilla esté marcada por defecto)-->
+        <h4>¿Qué te gusta más de soraka?</h4>
+        
+        <label for="platanos">
+          <input id="platanos" type="radio" value="platanos" name="platanos-curaciones"checked>Que tira platanos.
+        </label><br>
+
+        <label for="curaciones">
+          <input id="curaciones" type="radio" value="curaciones" name="platanos-curaciones">Que cura mucho.
+        </label><br>
+
+        <label for="dos">
+          <input id="dos" type="radio" value="dos" name="platanos-curaciones">Las dos.
+        </label>
+
+        <!--Casillas de verificación-->
+        <h4>Indica que le gusta de Soraka</h4>
+
+        <label for="skins">
+          <input type="checkbox" id="skins" value="skins" name="Skins-gameplay-patas"checked>Sus skins.
+        </label><br>
+
+        <label for="gameplay">
+          <input type="checkbox" id="gameplay" value="gameplay" name="Skins-gameplay-patas">Su gameplay.
+        </label><br>
+
+        <label for="patas">
+          <input type="checkbox" id="patas" value="patas" name="Skins-gameplay-patas">Sus patas de cabra.
+        </label>
+
+        <!--Input de texto y botón de enviar-->
+        <h4>Ingresa lo que más te guste de Soraka.</h4>
+        <input type="text" placeholder="Me gusta su cuerno." required><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+
+    </main>
+    <br>
+    <footer>
+      <small><p class="derechos">Derechos de autor de Riot Games</p></small><br>
+      <a href="https://www.leagueoflegends.com/es-es/champions/soraka/" target="_blank" rel="noopener noreferrer"><img id="boton-soraka" src="imagenes/Pagina_Soraka.png" alt="Icono para redirigir a la página de soraka oficial"></a>
+    </footer>
+  </body>
+</html>
